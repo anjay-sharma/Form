@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(river.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.sub-container {
+    width: 50%;
+    height: 65%;
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 25px;
+    border-radius: 15px;
+}
+h2{
+    font-size: 40px;
+    font-family: monospace;
+    text-align: center;
+}
+.form {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    gap: 55%;
+}
+input{
+    width: 300px;
+    padding: 10px;
+    font-family: cursive;
+    outline: none;
+    border: none;
+}
+.btn {
+    width: 148px;
+    margin: auto;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    font-weight: 700;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    color: black;
+    background-color: greenyellow;
+}
